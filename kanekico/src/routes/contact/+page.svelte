@@ -41,7 +41,7 @@
 	</section>
 
 	<section class="flex flex-col justify-center p-10 card bg-neutral max-w-max h-full">
-		<h2 class="text-xl mb-2"><strong>Contact Details</strong></h2>
-		<p>📧: connor@kanekico.com</p>
+		<h2 class="text-5xl mb-6"><strong>Email</strong></h2>
+		<a href="mailto:design@kanekico.com" class="font-mono text-xl">📧: design@kanekico.com</a>
 	</section>
 </div>
