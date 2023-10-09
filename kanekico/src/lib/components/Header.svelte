@@ -2,12 +2,15 @@
 </script>
 
 <header>
+	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+	<!-- svelte-ignore a11y-label-has-associated-control-->
+
+	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+
 	<div class="navbar bg-base-100">
 		<div class="navbar-start">
 			<div class="dropdown">
-				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-				<!-- svelte-ignore a11y-label-has-associated-control-->
-				<label tabindex="0" class="btn btn-ghost lg:hidden">
+				<label tabindex="0" class="btn btn-ghost btn-circle">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5"
@@ -18,26 +21,22 @@
 							stroke-linecap="round"
 							stroke-linejoin="round"
 							stroke-width="2"
-							d="M4 6h16M4 12h8m-8 6h16"
+							d="M4 6h16M4 12h16M4 18h7"
 						/></svg
 					>
 				</label>
-				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				<ul
 					tabindex="0"
 					class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
 				>
+					<li><a href="/">Homepage</a></li>
 					<li><a href="/services">Services</a></li>
-					<li><a href="/contact">Contact Us</a></li>
+					<li><a href="/contact">Contact</a></li>
 				</ul>
 			</div>
-			<a href="/" class="btn btn-ghost normal-case text-xl">Kanekico</a>
 		</div>
-		<div class="navbar-end hidden lg:flex">
-			<ul class="menu menu-horizontal px-1">
-				<li><a href="/services">Services</a></li>
-				<li><a href="/contact">Contact Us</a></li>
-			</ul>
+		<div class="navbar-center">
+			<a class="btn btn-ghost normal-case text-xl">Kanekico Design</a>
 		</div>
 	</div>
 </header>
